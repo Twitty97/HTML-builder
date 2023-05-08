@@ -39,3 +39,5 @@ function copyFile(source, destination) {
 function callback(err) {
   if (err) throw err;
 }
+
+module.exports = copyFile;
