@@ -11,7 +11,7 @@ const projectDist = path.join(__dirname, 'project-dist');
 const assetsDestDir = path.join(projectDist, 'assets');
 const assetsSourceDir = path.join(__dirname, 'assets');
 const stylesSourceDir = path.join(__dirname, 'styles');
-const stylesDestDir = path.join(projectDist, 'styles.css');
+const stylesDestDir = path.join(projectDist, 'style.css');
 const componentsDir = path.join(__dirname, 'components');
 const templateHtml = path.join(__dirname, 'template.html');
 
